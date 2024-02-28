@@ -6,6 +6,7 @@
 
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
+import mysql.connector
 
 
 class BookscraperPipeline:
@@ -65,8 +66,6 @@ class BookscraperPipeline:
             adapter['stars'] = 5
         
         return item
-
-import mysql.connector
 
 class SaveToMySQLPipeline:
     def __init__(self):
