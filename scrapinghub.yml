@@ -1,2 +1,5 @@
 project: 739560
 stack: scrapy:2.11-latest
+
+requirements:
+  file: requirements.txt
