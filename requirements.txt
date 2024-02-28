@@ -4,3 +4,4 @@ mysql-connector-python==8.3.0
 Requests==2.31.0
 Scrapy==2.11.0
 setuptools==65.5.0
+scrapeops_scrapy==0.5.4
